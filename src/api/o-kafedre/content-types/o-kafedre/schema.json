@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_kafedres",
+  "info": {
+    "singularName": "o-kafedre",
+    "pluralName": "o-kafedres",
+    "displayName": "О кафедре",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "default": "Описание",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

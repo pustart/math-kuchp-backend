@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "speczkursy_dlya_speczialistovs",
+  "info": {
+    "singularName": "speczkursy-dlya-speczialistov",
+    "pluralName": "speczkursy-dlya-speczialistovs",
+    "displayName": "Спецкурсы для специалистов"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "for_specialists": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Для специалистов"
+    },
+    "courses": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

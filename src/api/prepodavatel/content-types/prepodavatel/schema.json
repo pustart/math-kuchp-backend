@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prepodavatels",
+  "info": {
+    "singularName": "prepodavatel",
+    "pluralName": "prepodavatels",
+    "displayName": "Преподаватели",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "ФИО",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "teachers_eamil": {
+      "type": "email",
+      "default": "kuchp@math.vsu.ru",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "job": {
+      "type": "string",
+      "required": true,
+      "default": "Должность",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "default": "Описание",
+      "required": true
+    }
+  }
+}

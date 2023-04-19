@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Контакты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "default": "math.kuchp@gmail.com",
+      "required": true
+    },
+    "general_number": {
+      "type": "string",
+      "regex": "(^8|7|\\+7)((\\d{10})|(\\s\\(\\d{3}\\)\\s\\d{3}\\s\\d{2}\\s\\d{2}))",
+      "default": "+7 473 220 86 18",
+      "required": false
+    },
+    "dean_number": {
+      "type": "string",
+      "default": "2-208-460",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "default": "адрес: Университетская пл., д. 1, а. 308,327"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metodichkis",
+  "info": {
+    "singularName": "metodichki",
+    "pluralName": "metodichkis",
+    "displayName": "Методички",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "book": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "Название книги",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Методички",
+        "УМП",
+        "Довузовская работа",
+        "Материалы",
+        "Рабочие программы"
+      ],
+      "required": true
+    }
+  }
+}

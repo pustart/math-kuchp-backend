@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novosti",
+  "info": {
+    "singularName": "novost",
+    "pluralName": "novosti",
+    "displayName": "Новости",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Заголовок"
+    },
+    "publish_date": {
+      "type": "date",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "default": "Новость",
+      "required": true
+    }
+  }
+}
