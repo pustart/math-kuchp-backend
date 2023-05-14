@@ -26,17 +26,27 @@
       "required": true
     },
     "director": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "director_name": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "required": true
+      "type": "string",
+      "required": true,
+      "default": "Глушко Андрей Владимирович"
     }
   }
 }
