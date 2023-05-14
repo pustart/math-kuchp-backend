@@ -4,7 +4,8 @@
   "info": {
     "singularName": "istoriya-kafedry",
     "pluralName": "istoriya-kafedries",
-    "displayName": "История кафедры"
+    "displayName": "История кафедры",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,19 @@
         }
       },
       "type": "richtext",
+      "required": true
+    },
+    "director": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
       "required": true
     }
   }
