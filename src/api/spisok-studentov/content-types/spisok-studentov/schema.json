@@ -4,7 +4,8 @@
   "info": {
     "singularName": "spisok-studentov",
     "pluralName": "spisok-studentovs",
-    "displayName": "Список студентов"
+    "displayName": "Список студентов",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -50,6 +51,17 @@
       },
       "type": "richtext",
       "default": "Список студентов",
+      "required": true
+    },
+    "sort_id": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "max": 7,
+      "min": 1,
       "required": true
     }
   }
