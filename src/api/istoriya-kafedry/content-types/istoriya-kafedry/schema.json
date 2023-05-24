@@ -47,6 +47,19 @@
       "type": "string",
       "required": true,
       "default": "Глушко Андрей Владимирович"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }
